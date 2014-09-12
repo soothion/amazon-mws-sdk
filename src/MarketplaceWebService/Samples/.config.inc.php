@@ -14,8 +14,8 @@
     * to anyone. It is important to keep your Secret Access Key confidential
     * to protect your account.
     ***********************************************************************/
-    define('AWS_ACCESS_KEY_ID', 'AKIAJZI5EXGOZV22NQJQ');
-    define('AWS_SECRET_ACCESS_KEY', '58RTCi3RnVy0b6OjJwl8rBqM3N2K4KMtscvPyLa4');
+    define('AWS_ACCESS_KEY_ID', 'YOUR_AWS_ACCESS_KEY_ID');
+    define('AWS_SECRET_ACCESS_KEY', 'AWS_SECRET_ACCESS_KEY');
 
    /************************************************************************
     * REQUIRED
@@ -23,7 +23,7 @@
     * All MWS requests must contain a User-Agent header. The application
     * name and version defined below are used in creating this value.
     ***********************************************************************/
-    define('APPLICATION_NAME', 'BetterStuff LowerPrice');
+    define('APPLICATION_NAME', 'YOUR_APPLICATION_NAME');
     define('APPLICATION_VERSION', '2010-10-01');
     
    /************************************************************************
@@ -32,7 +32,7 @@
     * All MWS requests must contain the seller's merchant ID and
     * marketplace ID.
     ***********************************************************************/
-    define ('MERCHANT_ID', 'A2KV19AYUKS3X0');
+    define ('MERCHANT_ID', 'YOUR_MERCHANT_ID');
     
    /************************************************************************ 
     * OPTIONAL ON SOME INSTALLATIONS
